@@ -1,0 +1,55 @@
+body{
+  background: #a569bd;
+}
+.parent{
+  margin:5%;
+  background-color: #b36565;
+  display:flex;
+  text-align:center;
+}
+.child{
+  background-color: #909497;
+  padding: 5%;
+  border: 2px solid blue;
+  margin:2%;
+  text-align: center;
+  width: 20%;
+  box-shadow: 10px 10px black;
+}
+img{
+  width: 100%;
+  border-radius: 10%;
+}
+@media screen and (min-width:320px) and (max-width:480px) {
+body{
+  background-color: red;
+}
+.parent{
+  display: flex;
+  width: 90%;
+  margin:5%;
+  border: 2px  black;
+  flex-wrap: wrap;
+}
+.child{
+  width: 90%;
+}
+}
+/* TABLET MODE */
+@media screen and (min-width:481px) and (max-width:1024px) {
+body{
+  background-color: red;
+}
+.parent{
+  display: flex;
+  width: 90%;
+  margin:5%;
+  border: 2px  black;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.child{
+  width: 90%;
+}
+}

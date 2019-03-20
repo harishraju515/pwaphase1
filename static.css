@@ -1,0 +1,23 @@
+body{
+  background: #a569bd;
+}
+.main{
+  background: white;
+  display: flex;
+
+  justify-content: space-around;
+}
+.left{
+  background:white;
+  width: 25%;
+  text-align: left;
+  padding: 2%;
+}
+.right{
+  background: white;
+  width: 65%;
+  content: left;
+}
+table{
+  border:1px solid red;
+}

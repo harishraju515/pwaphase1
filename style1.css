@@ -1,0 +1,27 @@
+body{
+  background-color:gray;
+}
+.parent{
+    background-color:#110F0F;
+    display:flex;
+    margin: 5%;
+    text-align: center;
+}
+.child{
+  background-color: #C1A374  ;
+  display:flex;
+  padding: 5%;
+  margin: center;
+}
+.child{
+  background-color: #C1A374  ;
+  display:flex;
+  padding: 5%;
+  margin: center;
+}
+.child{
+  background-color: #C1A374  ;
+  display:flex;
+  padding: 5%;
+  margin: center;
+}
